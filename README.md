@@ -1,3 +1,5 @@
+# Dataset
+## NEU-DET
 > This dataset was created by the team of Song Kechen from Northeastern University, focusing on the detection and recognition of surface defects in steel. The dataset contains 1800 images, covering six common types of steel surface defects, namely:
 > 1. Crazing (cracks)
 > 2. Inclusion
