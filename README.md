@@ -38,4 +38,32 @@ The following four datasets focus on surface defect detection in industrial scen
 >     └── test/
 > ```
 
-For access to the preprocessed YOLO-format datasets or conversion scripts, please refer to the [`datasets/`](./datasets) directory or contact the authors.
+### 📥 Dataset Download
+
+You can download the preprocessed YOLO-format datasets from the links below:
+
+- **CIFAR-10 / CIFAR-100**: Automatically downloaded via `torchvision.datasets`.
+- **ImageNet**: Available at [https://image-net.org](https://image-net.org) (registration required).
+- **NEU-DET**: [https://github.com/abin24/NEU-DET-dataset](https://github.com/abin24/NEU-DET-dataset)
+- **GC10-DET**: [https://www.kaggle.com/datasets/overload10/gc10det](https://www.kaggle.com/datasets/overload10/gc10det)
+- **XSDD-DET**: [https://github.com/Charmve/XSDD-Dataset](https://github.com/Charmve/XSDD-Dataset)
+- **DSPCB-SD+**: [https://github.com/Charmve/DSPCB-SD-plus](https://github.com/Charmve/DSPCB-SD-plus)
+
+> 💡 We provide our processed YOLO-format versions in the [`datasets/`](./datasets) folder. If not included, please run the conversion scripts in [`tools/convert_datasets.py`](./tools/convert_datasets.py).
+
+---
+
+## ⚙️ Environment Setup
+
+Ensure you have the following environment:
+
+- **Python**: `3.10`
+- **PyTorch**: `1.12.0`
+
+You can create a virtual environment and install dependencies as follows:
+
+```bash
+conda create -n myenv python=3.10 -y
+conda activate myenv
+pip install torch==1.12.0 torchvision==0.13.0 --extra-index-url https://download.pytorch.org/whl/cu113
+pip install -r requirements.txt  # if you have additional dependencies
