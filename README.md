@@ -44,11 +44,10 @@ You can download the preprocessed YOLO-format datasets from the links below:
 
 - **CIFAR-10 / CIFAR-100**: Automatically downloaded via `torchvision.datasets`.
 - **ImageNet**: Available at [https://image-net.org](https://image-net.org) (registration required).
-- **NEU-DET**: [https://github.com/abin24/NEU-DET-dataset](https://github.com/abin24/NEU-DET-dataset)
-- **GC10-DET**: [https://www.kaggle.com/datasets/overload10/gc10det](https://www.kaggle.com/datasets/overload10/gc10det)
-- **XSDD-DET**: [https://github.com/Charmve/XSDD-Dataset](https://github.com/Charmve/XSDD-Dataset)
-- **DSPCB-SD+**: [https://github.com/Charmve/DSPCB-SD-plus](https://github.com/Charmve/DSPCB-SD-plus)
-
+- **NEU-DET**: (Baidu Cloud:https://pan.baidu.com/share/init?surl=nBbO-jWDm1_NHDQsc1dRkg)
+- **GC10-DET**: (Baidu Cloud:https://pan.baidu.com/s/1Zrd-gzfVhG6oKdVSa9zoPQ Verify Code：cdyt)
+- **XSDD-DET**: (https://github.com/MYF1124/XSDD-DET)
+- **DSPCB-SD+**: (https://github.com/kikopapa/PCB_Defect_Detection)
 > 💡 We provide our processed YOLO-format versions in the [`datasets/`](./datasets) folder. If not included, please run the conversion scripts in [`tools/convert_datasets.py`](./tools/convert_datasets.py).
 
 ---
